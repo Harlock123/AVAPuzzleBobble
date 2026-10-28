@@ -9,8 +9,9 @@ using AVAPuzzleBobble.Engine;
 namespace AVAPuzzleBobble.Views;
 
 /// <summary>
-/// The screen: a fixed 1024×768 picture scaled to fit the window: the well in the middle, the score and the
-/// pieces' tally on the left, the next piece on the right. Runs the engine from a 60 Hz timer.
+/// The screen: a fixed 1024×768 picture scaled to fit the window: the well of bubbles in the middle with the
+/// launcher below it, the score on the left, and the round, the lives and the shots to the drop on the right. Runs
+/// the engine from a 60 Hz timer.
 /// </summary>
 public sealed partial class GameCanvas : Control
 {
